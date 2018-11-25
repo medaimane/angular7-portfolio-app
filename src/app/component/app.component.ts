@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng7medaimane';
+  apptitle = 'ng7medaimane';
 
   data: any = {
     title: 'Software engineer &nbsp;&bull;&nbsp; Mobile Web dev &nbsp;&bull;&nbsp; JavaScript & Python enthusiast.',
@@ -17,28 +17,28 @@ export class AppComponent {
       email: 'skhairimedaimane@gmail.com',
       address: 'Tetouan Morocco',
       phone: '+212678240102',
-      avatar: '../../../assets/images/avatar.jpg'
+      avatar: '../../../assets/images/medaimane.jpeg'
     },
     links: [{
+      name: 'Twitter',
+      icon: 'icon fa-twitter',
+      url: 'https://twitter.com/med_aimane',
+      active: true
+    }, {
       name: 'GitHub',
-      icon: 'fa-github',
+      icon: 'icon fa-github',
       url: 'https://github.com/medaimane',
       active: true
     }, {
       name: 'LinkedIn',
-      icon: 'fa-linkedin',
+      icon: 'icon fa-linkedin',
       url: 'https://www.linkedin.com/in/skhairimedaimane',
       active: true
     }, {
-      name: 'Twitter',
-      icon: 'fa-twitter',
-      url: 'https://twitter.com/med_aimane',
-      active: true
-    }, {
       name: 'Email',
-      icon: 'fa-envelope-o',
+      icon: 'icon fa-envelope-o',
       url: 'mailto:skhairimedaimane@gmail.com',
-      active: true
+      active: false
     }]
   };
 }
