@@ -4,7 +4,7 @@ import { HomeComponent } from '../components/home/home.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/portfolio', pathMatch : 'full'},
-  {path: 'portfolio', component: HomeComponent, data: {name : 'medaimane'}}
+  {path: 'portfolio', component: HomeComponent}
 ];
 
 @NgModule({
