@@ -12,8 +12,17 @@ This is my personal website where I can present myself online. Here is the link 
     Design :
         HTML5 UP (html5up.net)
 
+    Images:
+        Unsplash (unsplash.com)
+        Icons8 (icons8.com)
+
     Icons:
         Font Awesome (fontawesome.io)
+
+    Other:
+        Angular (angular.io)
+        jQuery (jquery.com)
+        Responsive Tools (github.com/ajlkn/responsive-tools)
 
 ## License
 
