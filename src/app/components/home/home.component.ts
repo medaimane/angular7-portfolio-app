@@ -1,4 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { ProfileDataService } from 'src/app/services/profile-data.service';
+import { Profile } from 'src/app/interfaces/profile';
 
 @Component({
   selector: 'app-home',
@@ -7,11 +9,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  @Input() data: any;
+  profile: Profile;
 
-  constructor() { }
+  constructor(private profileData: ProfileDataService) { }
 
   ngOnInit() {
+    this.profile = this.profileData.data;
   }
 
 }

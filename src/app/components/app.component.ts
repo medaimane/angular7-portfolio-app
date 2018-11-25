@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProfileDataService } from '../services/profile-data.service';
+import { Profile } from '../interfaces/profile';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +10,7 @@ import { ProfileDataService } from '../services/profile-data.service';
 export class AppComponent implements OnInit {
   apptitle = 'ng7medaimane';
 
-  profile: any;
+  profile: Profile;
 
   constructor(private profileData: ProfileDataService) {
   }

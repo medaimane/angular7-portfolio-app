@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
+import { Profile } from '../interfaces/profile';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProfileDataService {
 
-  data: any;
+  data: Profile;
 
   constructor() {
     this.data = {
