@@ -19,7 +19,7 @@ export class ProfileDataService {
         email: 'skhairimedaimane@gmail.com',
         address: 'Tetouan Morocco',
         phone: '+212678240102',
-        avatar: '../../../assets/images/medaimane.jpeg'
+        avatar: '../../../assets/images/me.jpeg'
       },
       links: [{
         name: 'Twitter',
