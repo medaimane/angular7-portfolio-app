@@ -1,3 +1,31 @@
 {
-    
+    "name": "Mohamed Aimane S.",
+    "short_name": "MAS",
+    "description": "Description: Personal app where I can present myself online, Creator: Mohamed Aimane Skhairi, Title: Software Engineer, Category: Portfolio",
+    "start_url": "/?screen=home",
+    "scope": "/",
+    "display": "fullscreen",
+    "background_color": "#208fd8",
+    "theme_color": "#512da8",
+    "icons": [{
+        "src": "./assets/images/code/icons8-source-code-48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+    },{
+        "src": "./assets/images/code/icons8-source-code-64.png",
+        "sizes": "64x64",
+        "type": "image/png"
+    },{
+        "src": "./assets/images/code/icons8-source-code-96.png",
+        "sizes": "96x96",
+        "type": "image/png"  
+    },{
+        "src": "./assets/images/code/icons8-source-code-192.png",
+        "sizes": "192x192",
+        "type": "image/png"  
+    },{
+        "src": "./assets/images/code/icons8-source-code-512.png",
+        "sizes": "512x512",
+        "type": "image/png"  
+    }]
 }
