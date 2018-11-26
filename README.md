@@ -1,6 +1,6 @@
-# Personal Website
+# Portfolio Website
 
-This is my personal website where I can present myself online. Here is the link to visit it [medaimane.github.io](https://medaimane.github.io).
+This is a portfolio website where you can present yourself online.
 
 ## Creators
 
