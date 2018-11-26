@@ -1,6 +1,33 @@
-# Portfolio Website
+# Portfolio Web App
 
-This is a portfolio website where you can present yourself online.
+This is a portfolio web app where you can present yourself online.
+
+## Instructions
+
+### Quick Start
+
+Project requirements :
+
+* Node.js and Npm.
+* Angular cli.
+
+```sh
+
+# Install dependencies
+cd [project folder] && npm install
+
+```
+
+Before you serve the app, check out the ```services/profile-data.service``` and modify the ```data object``` with your personal data. Then run the command below :
+
+```sh
+
+# Serve the app
+ng serve -o
+
+```
+
+For more informations checkout the [Angular docs](https://angular.io/docs).
 
 ## Creators
 
