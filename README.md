@@ -2,6 +2,8 @@
 
 This is a portfolio web app where you can present yourself online.
 
+ > See the [app demo](https://medaimane.netlify.com) hosted using [netlify](https://www.netlify.com/) and github.
+
 ## Instructions
 
 ### Quick Start
@@ -27,7 +29,7 @@ ng serve -o
 
 ```
 
-For more informations checkout the [Angular docs](https://angular.io/docs).
+For more informations check out the [Angular docs](https://angular.io/docs).
 
 ## Creators
 
